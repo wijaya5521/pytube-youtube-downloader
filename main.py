@@ -3,7 +3,7 @@ from pytube import request
 from pytube.cli import on_progress
 from Functions import convert_time
 
-
+# set chunk range size to 1 MB
 request.default_range_size = 1024
 
 url = input("Paste youtube link here : ")
